@@ -6,7 +6,7 @@ namespace csharp_check_numbers
     {
         public static string ToWords(int number)
         {
-            return "zero";
+            throw new Exception("not yet implemented");
         }
     }
 }
