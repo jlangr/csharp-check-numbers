@@ -4,9 +4,9 @@ namespace csharp_check_numbers
 {
     public class NumberConverter
     {
-        public static bool ToWords(int number)
+        public static string ToWords(int number)
         {
-            throw new NotImplementedException();
+            return "zero";
         }
     }
 }

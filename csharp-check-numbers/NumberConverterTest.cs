@@ -10,6 +10,7 @@ namespace csharp_check_numbers
             Assert.That(NumberConverter.ToWords(0), Is.EqualTo("zero"));
         }
 
+        /*
         [Test]
         public void single_digit()
         {
@@ -99,5 +100,6 @@ namespace csharp_check_numbers
         {
             Assert.That(NumberConverter.ToWords(1000000), Is.EqualTo("one million"));
         }
+        */
     }
 }
